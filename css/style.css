@@ -64,6 +64,12 @@
        padding: 0 15px;
     }
 
+    .wrapper-full {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
 
 /* Header styles start */
     .header {
@@ -109,5 +115,68 @@
         border-right: none;
     }
 
+    .header__link:hover, .header__link:active, .header__link:focus {
+        color: grey;
+    }
 
 /* Header styles end */
+
+/* Intro styles start */
+    .intro {
+        height: 403px;
+        background: url(../img/intro-background.jpg) no-repeat center;
+        background-size: cover;
+        padding: 160px 396px;
+    }
+/* Intro styles end */
+
+/* Problem styles start */
+    .problem {
+        padding-top: 48px;
+        padding-bottom: 92px;
+       background: #EEEEEE;
+    }
+
+    .problem__title {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 75px;
+        color: #007765;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .problem__desc {
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+    }
+/* Problem styles end */
+    .hero {
+       height: 483px;
+        background: url(../img/Hero.jpg) no-repeat center;
+        background-size: cover;
+        padding: 128px 559px;
+    }
+
+/* Introduction styles start */
+    .introduction {
+        padding: 48px 450px 92px;
+    }
+
+    .introduction_title {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+        color: #007765;
+        margin-bottom: 16px;
+    }
+
+    .introduction__desc {
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+    }
+
+/* Introduction styles end */
